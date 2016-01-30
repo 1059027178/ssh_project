@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\order_normal.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\order_normal.png"
+    },
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\home_pressed.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\home_pressed.png"
+    },
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\order_pressed.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\order_pressed.png"
+    },
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\goback_normal.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\goback_normal.png"
+    },
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\my_pressed.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\my_pressed.png"
+    },
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\my_normal.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\my_normal.png"
+    },
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\goback_pressed.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\goback_pressed.png"
+    },
+    {
+        "merged": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\home_normal.png",
+        "source": "F:\\Android\\WorkSpace\\StudioProject\\AYIO2O\\app\\src\\main\\res\\mipmap-xhdpi\\home_normal.png"
+    }
+]

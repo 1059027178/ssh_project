@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray2"
+              android:orientation="vertical">
+    /*头像*/
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_heard"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:src="@mipmap/head_icon"
+            android:background="@drawable/selector_my2_split"/>
+        /*用户名显示（点击查看个人信息）*/
+
+        <TextView
+            android:id="@+id/tv_geRenXinXi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_my3_split"
+            android:gravity="center"
+            android:text="13608019466"
+            android:textColor="@color/green"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    /*余额管理*/
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/biankuang1_remove_left_right"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/biankuang1_top_butom_right">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="账户余额：800元"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            /*查询明细*/
+            <TextView
+                android:id="@+id/tv_chaXunMingXi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_my1_split"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="查询明细 >"/>
+            /*余额提现*/
+            <TextView
+                android:id="@+id/tv_yuETiXian"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_my3_split"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="余额提现 >"/>
+           /* 账户充值*/
+            <TextView
+                android:id="@+id/tv_zhagHuChongZhi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:background="@drawable/selector_my3_split"
+                android:paddingRight="10dp"
+                android:text="账户充值 >"/>
+        </LinearLayout>
+    </LinearLayout>
+    /*其他*/
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/biankuang1_remove_left_right"
+        android:orientation="vertical">
+       /* 银行卡管理*/
+        <LinearLayout
+            android:id="@+id/lv_yinHangKaGuanLi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_my1_split"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="银行卡管理"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text=">"/>
+        </LinearLayout>
+       /* 日程计划*/
+        <LinearLayout
+            android:id="@+id/lv_riChengGuanLi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/selector_my2_split">
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="日程计划"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text=">"/>
+        </LinearLayout>
+        /*更多设置*/
+        <LinearLayout
+            android:id="@+id/lv_gengDuo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_my1_split"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="更多设置"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text=">"/>
+        </LinearLayout>
+    </LinearLayout>
+    /*退出登录按钮*/
+    <LinearLayout
+        android:id="@+id/lv_TuiChu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_my1_split"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="退出登录"
+            android:textColor="@color/green"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>
