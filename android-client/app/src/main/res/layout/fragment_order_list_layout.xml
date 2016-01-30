@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    /*标题*/
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/biankuang1_butom"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_order_titleback_split"/>
+        <!--/*title*/-->
+        <TextView
+            android:id="@+id/orderList_title_heard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="50dp"
+            android:text="我的订单-未完成"
+            android:textColor="@color/colorBlack"
+            android:textSize="17dp"/>
+    </LinearLayout>
+    /*订单主要内容*/
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray2"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listview_orderlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:divider="#00000000"
+            android:dividerHeight="4dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
